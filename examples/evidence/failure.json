@@ -1,0 +1,6 @@
+{
+  "synthetic": true,
+  "case_id": "B",
+  "status": "failure",
+  "output": "An intentionally unsuccessful example."
+}

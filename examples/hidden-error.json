@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "label": "Demonstration Output — inconsistent summary, synthetic data",
+  "synthetic": true,
+  "plan": {
+    "case_ids": [
+      "A",
+      "B"
+    ],
+    "repetitions": 1
+  },
+  "summary": {
+    "planned": 2,
+    "attempted": 2,
+    "completed": 2,
+    "scored": 2,
+    "successful": 2
+  },
+  "attempts": [
+    {
+      "attempt_id": "A1",
+      "case_id": "A",
+      "repetition": 1,
+      "status": "success",
+      "scored": true,
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "attempt_id": "B1",
+      "case_id": "B",
+      "repetition": 1,
+      "status": "error",
+      "scored": false,
+      "evidence_ids": [
+        "E2"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "path": "evidence/success.json",
+      "sha256": "d7b51b40bfc79a5d7a73d549460b6899778f243855169dee389da627d24206c4"
+    },
+    {
+      "evidence_id": "E2",
+      "path": "evidence/failure.json",
+      "sha256": "98f7b591264214cb621993124d273a27930a42ebeb4410f2f2870cd5b46f0fb3"
+    }
+  ],
+  "claims": []
+}
